@@ -3,8 +3,10 @@ document.addEventListener("DOMContentLoaded", function() {
       entries.forEach((entry) => {
           if (entry.isIntersecting) {
               entry.target.classList.add('animate__slideInUp');
+              entry.target.classList.remove('animate__fadeOutDown');
           } else {
-              // entry.target.classList.remove('animate__slideInUp');
+              entry.target.classList.remove('animate__slideInUp');
+              entry.target.classList.add('animate__fadeOutDown');
           }
       });
   });
@@ -19,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
           if (entry.isIntersecting) {
               entry.target.classList.add('animate__jello');
           } else {
-              // entry.target.classList.remove('animate__slideInUp');
+            //   entry.target.classList.remove('animate__jello');
           }
       });
   });
