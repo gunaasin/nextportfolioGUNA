@@ -67,7 +67,7 @@ body {
   background: radial-gradient(ellipse at bottom, #222b38 0%, #000000 100%);
   color: var(--text-color);
   font-family: "Poppins", sans-serif;
-
+  
   line-height: 1.5;
 }
 
@@ -77,8 +77,11 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  z-index: 20;
   background: transparent;
+  background: rgba(255, 255, 255, 0);
+  backdrop-filter: blur(10px);
+  z-index: 9999;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .navbar .container {
@@ -124,6 +127,7 @@ body {
 
 /* hamburger */
 .hamburger {
+  
   margin-bottom: 0.1rem;
   display: none;
 }
@@ -131,11 +135,12 @@ body {
 .bar {
   display: block;
   width: 23px;
-  height: 3px;
+  height: 2.5px;
   margin: 4px auto;
   transition: all 0.3s ease-in-out;
   border-radius: 30px;
-  background-color: var(--bg-secondary);
+  background-color: rgba(255, 255, 255, 0.516);
+ 
 }
 
 /* Hero section */
@@ -190,6 +195,7 @@ body {
 }
 /* Projects */
 #projects {
+ 
   display: flex;
   flex-direction: column;
   margin: 2rem auto 5rem;
@@ -201,12 +207,19 @@ body {
 }
 
 .project {
+  margin-top: 100px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-auto-rows: minmax(250px, auto);
   grid-gap: 0.9rem;
 }
-
+.project-container{
+  position: relative;
+  top: 500px;
+}
+.projecttop{
+  margin-top: 00px;
+}
 .card .project-bio p {
   font-size: 0.83rem;
 }
@@ -234,10 +247,12 @@ body {
 
 /* Footer */
 #footer {
+margin-top: 600px;
   background: #111111;
 }
 
 #footer .container {
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -307,9 +322,11 @@ body {
 
   .nav-menu.active {
     right: 20px;
+  
   }
 
   .nav-menu .nav-link {
+    
     font-size: 0.9rem;
     margin: 0 0.2rem;
   }
@@ -348,7 +365,39 @@ body {
   }
 }
 
+
+/* smmoth */
+
+#smooth-content {
+  overflow: visible;
+  width: 100%;
+  height: 2330px;
+  /* background-image:
+    linear-gradient(rgba(255, 255, 255, 0.007) 2px, transparent 2px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.041) 2px, transparent 2px),
+    linear-gradient(rgba(255, 255, 255, 0.039) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.06) 1px, transparent 1px);
+  background-size: 100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position: -2px -2px, -2px -2px, -1px -1px, -1px -1px;  */
+}
+
+
+
 @media (max-width: 600px) {
+
+  .image {
+    width: 190px;
+    height: 190px;
+  }
+  
+  .image img {
+    width: 190px;
+    height: 230px;
+  }
+  .navbar {
+    backdrop-filter: blur(1px);
+  
+  }
   .project {
     display: grid;
     grid-template-columns: 1fr;
@@ -356,6 +405,19 @@ body {
 
   .header-container .btn {
     border-radius: 5px;
-    width: 80%;
+    width: 70%;
   }
+  #smooth-content {
+    overflow: visible;
+    width: 100%;
+    height: 2400px;
+    
+  }
+  
+ 
+
 }
+
+
+
+
