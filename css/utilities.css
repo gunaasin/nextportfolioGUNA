@@ -1,4 +1,3 @@
-
 .container {
   max-width: var(--width-medium);
   margin: 0 auto;
@@ -89,7 +88,7 @@ h2::selection {
   font-size: 3rem;
   letter-spacing: 10px;
   font-family: "", sans-serif;
- 
+
   background: -webkit-linear-gradient(rgb(255, 255, 255), #000000);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -204,23 +203,26 @@ h2::selection {
     font-size: 1rem;
     letter-spacing: 1px;
     line-height: 1.2;
-   
+
   }
+
   .content-text span {
     font-weight: 700;
     font-size: 2rem;
     letter-spacing: 5px;
-   
+
   }
+
   .content-text p {
     letter-spacing: 2px;
     font-size: 10px;
   }
+
   .btn {
-    
+
     border-radius: 50px;
     text-transform: uppercase;
     font-size: 0.65rem;
-   
+
   }
 }
