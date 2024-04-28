@@ -1,28 +1,4 @@
-gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
-ScrollTrigger.normalizeScroll(true)
-let smoother = ScrollSmoother.create({
-  smooth: 2,
-  effects: true,
-  normalizeScroll: true
-});
 
-ScrollTrigger.create({
-  trigger: ".box-c",
-  pin: true,
-  start: "center center",
-//   markers: true
-});
-
-
-// document.querySelector("projectbut").addEventListener("click", e => {
-//     smoother.scrollTo(".box-c", true, "center center");
-    
-//     // gsap.to(smoother, {
-//     // 	scrollTop: smoother.offset(".box-c", "center center"),
-//     // 	duration: 1
-//     // });
-//   });
-  
 
 document.addEventListener("DOMContentLoaded", function() {
   const observer = new IntersectionObserver((entries) => {
