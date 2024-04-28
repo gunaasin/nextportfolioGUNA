@@ -79,7 +79,7 @@ body {
   right: 0;
   background: transparent;
   background: rgba(255, 255, 255, 0);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(3px);
   z-index: 9999;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -133,12 +133,12 @@ body {
 
 .bar {
   display: block;
-  width: 23px;
-  height: 3px;
+  width: 20px;
+  height: 2.5px;
   margin: 4px auto;
   transition: all 0.3s ease-in-out;
   border-radius: 30px;
-  background-color: var(--bg-secondary);
+  background-color:rgb(100, 100, 100);
 }
 
 /* Hero section */
