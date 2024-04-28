@@ -1,6 +1,6 @@
-! function(e, t) {
+! function (e, t) {
     "object" == typeof exports && "undefined" != typeof module ? t(exports) : "function" == typeof define && define.amd ? define(["exports"], t) : t((e = e || self).window = e.window || {})
-}(this, function(e) {
+}(this, function (e) {
     "use strict";
 
     function _defineProperties(e, t) {
@@ -29,26 +29,26 @@
         a = w(103, 114, 101, 101, 110, 115, 111, 99, 107, 46, 99, 111, 109),
         l = w(103, 115, 97, 112, 46, 99, 111, 109),
         c = /^(?:[0-9]{1,3}\.){3}[0-9]{1,3}:?\d*$/,
-        r = (function(e) {
+        r = (function (e) {
             var t = "undefined" != typeof window,
                 r = 0 === (t ? window.location.href : "").indexOf(w(102, 105, 108, 101, 58, 47, 47)) || -1 !== e.indexOf(w(108, 111, 99, 97, 108, 104, 111, 115, 116)) || c.test(e) || (t ? window.location.hostname : "").split(".").pop() === w(108, 111, 99, 97, 108),
                 n = [a, l, w(99, 111, 100, 101, 112, 101, 110, 46, 105, 111), w(99, 111, 100, 101, 112, 101, 110, 46, 112, 108, 117, 109, 98, 105, 110, 103), w(99, 111, 100, 101, 112, 101, 110, 46, 100, 101, 118), w(99, 111, 100, 101, 112, 101, 110, 46, 97, 112, 112), w(99, 111, 100, 101, 112, 101, 110, 46, 119, 101, 98, 115, 105, 116, 101), w(112, 101, 110, 115, 46, 99, 108, 111, 117, 100), w(99, 115, 115, 45, 116, 114, 105, 99, 107, 115, 46, 99, 111, 109), w(99, 100, 112, 110, 46, 105, 111), w(112, 101, 110, 115, 46, 105, 111), w(103, 97, 110, 110, 111, 110, 46, 116, 118), w(99, 111, 100, 101, 99, 97, 110, 121, 111, 110, 46, 110, 101, 116), w(116, 104, 101, 109, 101, 102, 111, 114, 101, 115, 116, 46, 110, 101, 116), w(99, 101, 114, 101, 98, 114, 97, 120, 46, 99, 111, 46, 117, 107), w(116, 121, 109, 112, 97, 110, 117, 115, 46, 110, 101, 116), w(116, 119, 101, 101, 110, 109, 97, 120, 46, 99, 111, 109), w(112, 108, 110, 107, 114, 46, 99, 111), w(104, 111, 116, 106, 97, 114, 46, 99, 111, 109), w(119, 101, 98, 112, 97, 99, 107, 98, 105, 110, 46, 99, 111, 109), w(97, 114, 99, 104, 105, 118, 101, 46, 111, 114, 103), w(99, 111, 100, 101, 115, 97, 110, 100, 98, 111, 120, 46, 105, 111), w(99, 115, 98, 46, 97, 112, 112), w(115, 116, 97, 99, 107, 98, 108, 105, 116, 122, 46, 99, 111, 109), w(115, 116, 97, 99, 107, 98, 108, 105, 116, 122, 46, 105, 111), w(99, 111, 100, 105, 101, 114, 46, 105, 111), w(109, 111, 116, 105, 111, 110, 116, 114, 105, 99, 107, 115, 46, 99, 111, 109), w(115, 116, 97, 99, 107, 111, 118, 101, 114, 102, 108, 111, 119, 46, 99, 111, 109), w(115, 116, 97, 99, 107, 101, 120, 99, 104, 97, 110, 103, 101, 46, 99, 111, 109), w(115, 116, 117, 100, 105, 111, 102, 114, 101, 105, 103, 104, 116, 46, 99, 111, 109), w(119, 101, 98, 99, 111, 110, 116, 97, 105, 110, 101, 114, 46, 105, 111), w(106, 115, 102, 105, 100, 100, 108, 101, 46, 110, 101, 116)],
                 o = n.length;
             for (setTimeout(function checkWarn() {
-                    if (t)
-                        if ("loading" === document.readyState || "interactive" === document.readyState) document.addEventListener("readystatechange", checkWarn);
-                        else {
-                            document.removeEventListener("readystatechange", checkWarn);
-                            var e = "object" == typeof B ? B : t && window.gsap;
-                            t && window.console && !window._gsapWarned && "object" == typeof e && !1 !== e.config().trialWarn && (console.log(w(37, 99, 87, 97, 114, 110, 105, 110, 103), w(102, 111, 110, 116, 45, 115, 105, 122, 101, 58, 51, 48, 112, 120, 59, 99, 111, 108, 111, 114, 58, 114, 101, 100, 59)), console.log(w(65, 32, 116, 114, 105, 97, 108, 32, 118, 101, 114, 115, 105, 111, 110, 32, 111, 102, 32) + i + w(32, 105, 115, 32, 108, 111, 97, 100, 101, 100, 32, 116, 104, 97, 116, 32, 111, 110, 108, 121, 32, 119, 111, 114, 107, 115, 32, 108, 111, 99, 97, 108, 108, 121, 32, 97, 110, 100, 32, 111, 110, 32, 100, 111, 109, 97, 105, 110, 115, 32, 108, 105, 107, 101, 32, 99, 111, 100, 101, 112, 101, 110, 46, 105, 111, 32, 97, 110, 100, 32, 99, 111, 100, 101, 115, 97, 110, 100, 98, 111, 120, 46, 105, 111, 46, 32, 42, 42, 42, 32, 68, 79, 32, 78, 79, 84, 32, 68, 69, 80, 76, 79, 89, 32, 84, 72, 73, 83, 32, 70, 73, 76, 69, 32, 42, 42, 42, 32, 76, 111, 97, 100, 105, 110, 103, 32, 105, 116, 32, 111, 110, 32, 97, 110, 32, 117, 110, 97, 117, 116, 104, 111, 114, 105, 122, 101, 100, 32, 115, 105, 116, 101, 32, 118, 105, 111, 108, 97, 116, 101, 115, 32, 116, 104, 101, 32, 108, 105, 99, 101, 110, 115, 101, 32, 97, 110, 100, 32, 119, 105, 108, 108, 32, 99, 97, 117, 115, 101, 32, 97, 32, 114, 101, 100, 105, 114, 101, 99, 116, 46, 32, 80, 108, 101, 97, 115, 101, 32, 106, 111, 105, 110, 32, 67, 108, 117, 98, 32, 71, 114, 101, 101, 110, 83, 111, 99, 107, 32, 116, 111, 32, 103, 101, 116, 32, 102, 117, 108, 108, 32, 97, 99, 99, 101, 115, 115, 32, 116, 111, 32, 116, 104, 101, 32, 98, 111, 110, 117, 115, 32, 112, 108, 117, 103, 105, 110, 115, 32, 116, 104, 97, 116, 32, 98, 111, 111, 115, 116, 32, 121, 111, 117, 114, 32, 97, 110, 105, 109, 97, 116, 105, 111, 110, 32, 115, 117, 112, 101, 114, 112, 111, 119, 101, 114, 115, 46, 32, 68, 105, 115, 97, 98, 108, 101, 32, 116, 104, 105, 115, 32, 119, 97, 114, 110, 105, 110, 103, 32, 119, 105, 116, 104, 32, 103, 115, 97, 112, 46, 99, 111, 110, 102, 105, 103, 40, 123, 116, 114, 105, 97, 108, 87, 97, 114, 110, 58, 32, 102, 97, 108, 115, 101, 125, 41, 59)), console.log(w(37, 99, 71, 101, 116, 32, 117, 110, 114, 101, 115, 116, 114, 105, 99, 116, 101, 100, 32, 102, 105, 108, 101, 115, 32, 97, 116, 32, 104, 116, 116, 112, 115, 58, 47, 47, 103, 114, 101, 101, 110, 115, 111, 99, 107, 46, 99, 111, 109, 47, 99, 108, 117, 98), w(102, 111, 110, 116, 45, 115, 105, 122, 101, 58, 49, 54, 112, 120, 59, 99, 111, 108, 111, 114, 58, 35, 52, 101, 57, 56, 49, 53)), window._gsapWarned = 1)
-                        }
-                }, 50); - 1 < --o;)
+                if (t)
+                    if ("loading" === document.readyState || "interactive" === document.readyState) document.addEventListener("readystatechange", checkWarn);
+                    else {
+                        document.removeEventListener("readystatechange", checkWarn);
+                        var e = "object" == typeof B ? B : t && window.gsap;
+                        t && window.console && !window._gsapWarned && "object" == typeof e && !1 !== e.config().trialWarn && (console.log(w(37, 99, 87, 97, 114, 110, 105, 110, 103), w(102, 111, 110, 116, 45, 115, 105, 122, 101, 58, 51, 48, 112, 120, 59, 99, 111, 108, 111, 114, 58, 114, 101, 100, 59)), console.log(w(65, 32, 116, 114, 105, 97, 108, 32, 118, 101, 114, 115, 105, 111, 110, 32, 111, 102, 32) + i + w(32, 105, 115, 32, 108, 111, 97, 100, 101, 100, 32, 116, 104, 97, 116, 32, 111, 110, 108, 121, 32, 119, 111, 114, 107, 115, 32, 108, 111, 99, 97, 108, 108, 121, 32, 97, 110, 100, 32, 111, 110, 32, 100, 111, 109, 97, 105, 110, 115, 32, 108, 105, 107, 101, 32, 99, 111, 100, 101, 112, 101, 110, 46, 105, 111, 32, 97, 110, 100, 32, 99, 111, 100, 101, 115, 97, 110, 100, 98, 111, 120, 46, 105, 111, 46, 32, 42, 42, 42, 32, 68, 79, 32, 78, 79, 84, 32, 68, 69, 80, 76, 79, 89, 32, 84, 72, 73, 83, 32, 70, 73, 76, 69, 32, 42, 42, 42, 32, 76, 111, 97, 100, 105, 110, 103, 32, 105, 116, 32, 111, 110, 32, 97, 110, 32, 117, 110, 97, 117, 116, 104, 111, 114, 105, 122, 101, 100, 32, 115, 105, 116, 101, 32, 118, 105, 111, 108, 97, 116, 101, 115, 32, 116, 104, 101, 32, 108, 105, 99, 101, 110, 115, 101, 32, 97, 110, 100, 32, 119, 105, 108, 108, 32, 99, 97, 117, 115, 101, 32, 97, 32, 114, 101, 100, 105, 114, 101, 99, 116, 46, 32, 80, 108, 101, 97, 115, 101, 32, 106, 111, 105, 110, 32, 67, 108, 117, 98, 32, 71, 114, 101, 101, 110, 83, 111, 99, 107, 32, 116, 111, 32, 103, 101, 116, 32, 102, 117, 108, 108, 32, 97, 99, 99, 101, 115, 115, 32, 116, 111, 32, 116, 104, 101, 32, 98, 111, 110, 117, 115, 32, 112, 108, 117, 103, 105, 110, 115, 32, 116, 104, 97, 116, 32, 98, 111, 111, 115, 116, 32, 121, 111, 117, 114, 32, 97, 110, 105, 109, 97, 116, 105, 111, 110, 32, 115, 117, 112, 101, 114, 112, 111, 119, 101, 114, 115, 46, 32, 68, 105, 115, 97, 98, 108, 101, 32, 116, 104, 105, 115, 32, 119, 97, 114, 110, 105, 110, 103, 32, 119, 105, 116, 104, 32, 103, 115, 97, 112, 46, 99, 111, 110, 102, 105, 103, 40, 123, 116, 114, 105, 97, 108, 87, 97, 114, 110, 58, 32, 102, 97, 108, 115, 101, 125, 41, 59)), console.log(w(37, 99, 71, 101, 116, 32, 117, 110, 114, 101, 115, 116, 114, 105, 99, 116, 101, 100, 32, 102, 105, 108, 101, 115, 32, 97, 116, 32, 104, 116, 116, 112, 115, 58, 47, 47, 103, 114, 101, 101, 110, 115, 111, 99, 107, 46, 99, 111, 109, 47, 99, 108, 117, 98), w(102, 111, 110, 116, 45, 115, 105, 122, 101, 58, 49, 54, 112, 120, 59, 99, 111, 108, 111, 114, 58, 35, 52, 101, 57, 56, 49, 53)), window._gsapWarned = 1)
+                    }
+            }, 50); - 1 < --o;)
                 if (-1 !== e.indexOf(n[o])) return;
-            r || setTimeout(function() {
+            r || setTimeout(function () {
                 t && (window.location.href = w(104, 116, 116, 112, 115, 58, 47, 47) + a + w(47, 114, 101, 113, 117, 105, 114, 101, 115, 45, 109, 101, 109, 98, 101, 114, 115, 104, 105, 112, 47) + "?plugin=" + i + "&source=trial")
             }, 4e3)
         }("undefined" != typeof window ? window.location.host : ""), ScrollSmoother.register = function register(e) {
-            return F || (B = e || t(), s() && window.document && (L = window, I = document, j = I.documentElement, q = I.body), B && (W = B.utils.toArray, Y = B.utils.clamp, $ = B.parseEase("expo"), Q = B.core.context || function() {}, Z = B.core.globals().ScrollTrigger, B.core.globals("ScrollSmoother", ScrollSmoother), q && Z && (X = B.delayedCall(.2, function() {
+            return F || (B = e || t(), s() && window.document && (L = window, I = document, j = I.documentElement, q = I.body), B && (W = B.utils.toArray, Y = B.utils.clamp, $ = B.parseEase("expo"), Q = B.core.context || function () { }, Z = B.core.globals().ScrollTrigger, B.core.globals("ScrollSmoother", ScrollSmoother), q && Z && (X = B.delayedCall(.2, function () {
                 return Z.isRefreshing || K && K.refresh()
             }).pause(), G = Z.core._getVelocityProp, J = Z.core._inputObserver, ScrollSmoother.refresh = Z.refresh, F = 1))), F
         }, function _createClass(e, t, r) {
@@ -99,13 +99,13 @@
                 s = e.pins || [],
                 a = s.offset || 0,
                 l = e._startClamp && e.start <= 0 || e.pins && e.pins.offset ? 0 : e._endClamp && e.end === D() ? 1 : .5;
-            return s.forEach(function(e) {
+            return s.forEach(function (e) {
                 n -= e.distance, e.nativeStart <= t && (o -= e.distance)
             }), a && (o *= (n - a / r) / n), t + (o - i * l) / r - o
         }
 
         function _a(t, r) {
-            b.forEach(function(e) {
+            b.forEach(function (e) {
                 return function adjustEffectRelatedTriggers(e, t, r) {
                     r || (e.pins.length = e.pins.offset = 0);
                     var n, o, i, s, a, l, c, f, u = e.pins,
@@ -129,9 +129,9 @@
         }
 
         function ab() {
-            Ra(), requestAnimationFrame(Ra), b && (Z.getAll().forEach(function(e) {
+            Ra(), requestAnimationFrame(Ra), b && (Z.getAll().forEach(function (e) {
                 e._startNative = e.start, e._endNative = e.end
-            }), b.forEach(function(e) {
+            }), b.forEach(function (e) {
                 var t = e._startClamp || e.start,
                     r = e.autoSpeed ? Math.min(D(), e.end) : t + Math.abs((e.end - t) / e.ratio),
                     n = r - e.end;
@@ -148,19 +148,19 @@
         }
 
         function cb() {
-            return b && b.forEach(function(e) {
+            return b && b.forEach(function (e) {
                 return e.vars.onRefresh(e)
             })
         }
 
         function db() {
-            return b && b.forEach(function(e) {
+            return b && b.forEach(function (e) {
                 return e.vars.onRefreshInit(e)
             }), cb
         }
 
         function eb(r, n, o, i) {
-            return function() {
+            return function () {
                 var e = "function" == typeof n ? n(o, i) : n;
                 e || 0 === e || (e = i.getAttribute("data-" + R + r) || ("speed" === r ? 1 : 0)), i.setAttribute("data-" + R + r, e);
                 var t = "clamp(" === (e + "").substr(0, 6);
@@ -203,7 +203,7 @@
                     }(r, Y(0, 1, -e.start / (e.end - e.start)));
                     v = t.change, f = t.offset
                 } else f = p.offset || 0, v = (e.end - e.start - f) * (1 - i);
-                p.forEach(function(e) {
+                p.forEach(function (e) {
                     return v -= e.distance * (1 - i)
                 }), e.offset = v || .001, e.vars.onUpdate(e), l && l.progress(1)
             }
@@ -239,12 +239,12 @@
                     if (e.offset) {
                         if (i) {
                             for (r = -H, n = e.end; i--;) {
-                                if ((t = p[i]).trig.isActive || r >= t.start && r <= t.end) return void(l && (t.trig.progress += t.trig.direction < 0 ? .001 : -.001, t.trig.update(0, 0, 1), l.resetTo("y", parseFloat(g.y), -M, !0), N && l.progress(1)));
+                                if ((t = p[i]).trig.isActive || r >= t.start && r <= t.end) return void (l && (t.trig.progress += t.trig.direction < 0 ? .001 : -.001, t.trig.update(0, 0, 1), l.resetTo("y", parseFloat(g.y), -M, !0), N && l.progress(1)));
                                 r > t.end && (s += t.distance), n -= t.distance
                             }
                             o = h + s + v * ((B.utils.clamp(e.start, e.end, r) - e.start - s) / (n - e.start) - c)
                         }
-                        m.length && !a && m.forEach(function(e) {
+                        m.length && !a && m.forEach(function (e) {
                             return e(o - s)
                         }), o = function _round(e) {
                             return Math.round(1e5 * e) / 1e5 || 0
@@ -272,7 +272,7 @@
             z = {
                 y: 0
             },
-            O = "undefined" != typeof ResizeObserver && !1 !== t.autoResize && new ResizeObserver(function() {
+            O = "undefined" != typeof ResizeObserver && !1 !== t.autoResize && new ResizeObserver(function () {
                 if (!Z.isRefreshing) {
                     var e = D(w) * A;
                     e < -H && Va(e), X.restart(!0)
@@ -282,9 +282,9 @@
         function refreshHeight() {
             return e = n.clientHeight, n.style.overflow = "visible", q.style.height = L.innerHeight + (e - L.innerHeight) / A + "px", e - L.innerHeight
         }
-        bb(), Z.addEventListener("killAll", bb), B.delayedCall(.5, function() {
+        bb(), Z.addEventListener("killAll", bb), B.delayedCall(.5, function () {
             return N = 0
-        }), this.scrollTop = Va, this.scrollTo = function(e, t, r) {
+        }), this.scrollTop = Va, this.scrollTo = function (e, t, r) {
             var n = B.utils.clamp(0, D(), isNaN(e) ? o.offset(e, r, !!t && !f) : +e);
             t ? f ? B.to(o, {
                 duration: k,
@@ -292,14 +292,14 @@
                 overwrite: "auto",
                 ease: $
             }) : E(n) : Va(n)
-        }, this.offset = function(e, t, r) {
+        }, this.offset = function (e, t, r) {
             var n, o = (e = W(e)[0]).style.cssText,
                 i = Z.create({
                     trigger: e,
                     start: t || "top top"
                 });
             return b && (N ? Z.refresh() : _a([i], !0)), n = i.start / (r ? A : 1), i.kill(!1), e.style.cssText = o, B.core.getCache(e).uncache = 1, n
-        }, this.content = function(e) {
+        }, this.content = function (e) {
             if (arguments.length) {
                 var t = W(e || "#smooth-content")[0] || console.warn("ScrollSmoother needs a valid content element.") || q.children[0];
                 return t !== n && (c = (n = t).getAttribute("style") || "", O && O.observe(n), B.set(n, {
@@ -312,7 +312,7 @@
                 })), this
             }
             return n
-        }, this.wrapper = function(e) {
+        }, this.wrapper = function (e) {
             return arguments.length ? (w = W(e || "#smooth-wrapper")[0] || function _wrap(e) {
                 var t = I.querySelector(".ScrollSmoother-wrapper");
                 return t || ((t = I.createElement("div")).classList.add("ScrollSmoother-wrapper"), e.parentNode.insertBefore(t, e), t.appendChild(e)), t
@@ -335,9 +335,9 @@
                 left: "auto",
                 right: "auto"
             }), this) : w
-        }, this.effects = function(e, t) {
+        }, this.effects = function (e, t) {
             if (b = b || [], !e) return b.slice(0);
-            (e = W(e)).forEach(function(e) {
+            (e = W(e)).forEach(function (e) {
                 for (var t = b.length; t--;) b[t].trigger === e && b[t].kill()
             });
             t = t || {};
@@ -347,9 +347,9 @@
                 a = [];
             for (r = 0; r < e.length; r++)(n = fb(e[r], o, i, r, s)) && a.push(n);
             return b.push.apply(b, a), !1 !== t.refresh && Z.refresh(), a
-        }, this.sections = function(e, t) {
+        }, this.sections = function (e, t) {
             if (s = s || [], !e) return s.slice(0);
-            var r = W(e).map(function(t) {
+            var r = W(e).map(function (t) {
                 return Z.create({
                     trigger: t,
                     start: "top 120%",
@@ -360,9 +360,9 @@
                 })
             });
             return t && t.add ? s.push.apply(s, r) : s = r.slice(0), r
-        }, this.content(t.content), this.wrapper(t.wrapper), this.render = function(e) {
+        }, this.content(t.content), this.wrapper(t.wrapper), this.render = function (e) {
             return Ua(e || 0 === e ? e : H)
-        }, this.getVelocity = function() {
+        }, this.getVelocity = function () {
             return U.getVelocity(-H)
         }, Z.scrollerProxy(w, {
             scrollTop: Va,
@@ -382,10 +382,10 @@
         }), Z.defaults({
             scroller: w
         });
-        var V = Z.getAll().filter(function(e) {
+        var V = Z.getAll().filter(function (e) {
             return e.scroller === L || e.scroller === w
         });
-        V.forEach(function(e) {
+        V.forEach(function (e) {
             return e.revert(!0, !0)
         }), i = Z.create({
             animation: B.fromTo(z, {
@@ -410,11 +410,11 @@
             onRefreshInit: function onRefreshInit(e) {
                 if (!ScrollSmoother.isRefreshing) {
                     if (ScrollSmoother.isRefreshing = !0, b) {
-                        var t = Z.getAll().filter(function(e) {
+                        var t = Z.getAll().filter(function (e) {
                             return !!e.pin
                         });
-                        b.forEach(function(r) {
-                            r.vars.pinnedContainer || t.forEach(function(e) {
+                        b.forEach(function (r) {
+                            r.vars.pinnedContainer || t.forEach(function (e) {
                                 if (e.pin.contains(r.trigger)) {
                                     var t = r.vars;
                                     t.pinnedContainer = e.pin, r.vars = null, r.init(t, r.animation)
@@ -441,14 +441,14 @@
                 U.reset(), S && S(o)
             },
             scrub: k || !0
-        }), this.smooth = function(e) {
+        }), this.smooth = function (e) {
             return arguments.length && (A = (k = e || 0) && +t.speed || 1, i.scrubDuration(e)), i.getTween() ? i.getTween().duration() : 0
         }, i.getTween() && (i.getTween().vars.ease = t.ease || $), this.scrollTrigger = i, t.effects && this.effects(!0 === t.effects ? "[data-" + R + "speed], [data-" + R + "lag]" : t.effects, {
             effectsPadding: t.effectsPadding,
             refresh: !1
-        }), t.sections && this.sections(!0 === t.sections ? "[data-section]" : t.sections), V.forEach(function(e) {
+        }), t.sections && this.sections(!0 === t.sections ? "[data-section]" : t.sections), V.forEach(function (e) {
             e.vars.scroller = w, e.revert(!1, !0), e.init(e.vars, e.animation)
-        }), this.paused = function(e, t) {
+        }), this.paused = function (e, t) {
             return arguments.length ? (!!f !== e && (e ? (i.getTween() && i.getTween().pause(), E(-H / A), U.reset(), (r = Z.normalizeScroll()) && r.disable(), (f = Z.observe({
                 preventDefault: !0,
                 type: "wheel,touch,scroll",
@@ -458,7 +458,7 @@
                     return Va(-H)
                 }
             })).nested = J(j, "wheel,touch,scroll", !0, !1 !== t)) : (f.nested.kill(), f.kill(), f = 0, r && r.enable(), i.progress = (-H / A - i.start) / (i.end - i.start), Ta(i))), this) : !!f
-        }, this.kill = this.revert = function() {
+        }, this.kill = this.revert = function () {
             o.paused(!1), Ta(i), i.kill();
             for (var e = (b || []).concat(s || []), t = e.length; t--;) e[t].kill();
             Z.scrollerProxy(w), Z.removeEventListener("killAll", bb), Z.removeEventListener("refresh", ab), w.style.cssText = l, n.style.cssText = c;
@@ -466,7 +466,7 @@
             r && r.scroller === w && Z.defaults({
                 scroller: L
             }), o.normalizer && Z.normalizeScroll(!1), clearInterval(a), K = null, O && O.disconnect(), q.style.removeProperty("height"), L.removeEventListener("focusin", Ya)
-        }, this.refresh = function(e, t) {
+        }, this.refresh = function (e, t) {
             return i.refresh(e, t)
         }, C && (this.normalizer = Z.normalizeScroll(!0 === C ? {
             debounce: !0,
@@ -475,16 +475,16 @@
             overscrollBehavior: "none"
         }), "scrollBehavior" in L.getComputedStyle(q) && B.set([q, j], {
             scrollBehavior: "auto"
-        }), L.addEventListener("focusin", Ya), a = setInterval(Pa, 250), "loading" === I.readyState || requestAnimationFrame(function() {
+        }), L.addEventListener("focusin", Ya), a = setInterval(Pa, 250), "loading" === I.readyState || requestAnimationFrame(function () {
             return Z.refresh()
         })
     }
-    r.version = "3.12", r.create = function(e) {
+    r.version = "3.12", r.create = function (e) {
         return K && e && K.content() === W(e.content)[0] ? K : new r(e)
-    }, r.get = function() {
+    }, r.get = function () {
         return K
     }, t() && B.registerPlugin(r), e.ScrollSmoother = r, e.default = r;
-    if (typeof(window) === "defined" || window !== e) {
+    if (typeof (window) === "defined" || window !== e) {
         Object.defineProperty(e, "esModule", {
             value: !1
         })
