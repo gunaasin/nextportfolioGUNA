@@ -1,4 +1,6 @@
 
+import smoothScrollTo from '.smooth-scroll-to';
+smoothScrollTo(100);
 
 document.addEventListener("DOMContentLoaded", function() {
   const observer = new IntersectionObserver((entries) => {
